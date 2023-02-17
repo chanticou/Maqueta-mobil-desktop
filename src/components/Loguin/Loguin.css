@@ -1,0 +1,79 @@
+/*DESCKTOP*/
+@media (min-width: 1199.98px) {
+  .loguin_content {
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    padding: 235px 150px;
+    border-radius: 30%;
+  }
+
+  .loguin_content_title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .loguin_content_form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .loguin_input_form {
+    padding: 15px 60px;
+    border-radius: 2px;
+  }
+
+  .loguin_submit_button {
+    padding: 15px 70px;
+    margin: auto;
+    border-radius: 40px;
+    border-color: rgb(83, 83, 255);
+    font-size: 1rem;
+  }
+  .loguin_submit_button:hover {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+/* MOBIL */
+@media (max-width: 575.98px) and (orientation: portrait) {
+  /* body {
+    background: green;
+  } */
+
+  .loguin_content_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .loguin_content_title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .loguin_input_form {
+    padding: 10px 20px;
+  }
+
+  .loguin_submit_button {
+    padding: 15px 70px;
+    margin: auto;
+    border-radius: 40px;
+    text-align: center;
+    border-color: rgb(83, 83, 255);
+    font-size: 1rem;
+  }
+
+  .loguin_submit_button:hover {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+  }
+}

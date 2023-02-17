@@ -1,0 +1,9 @@
+.home_content_image {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.home_image {
+  width: 100%;
+  height: 720px;
+}
